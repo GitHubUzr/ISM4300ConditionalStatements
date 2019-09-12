@@ -65,7 +65,7 @@ namespace ISM4300ConditionalStatements
                         new_grade = (part * 0.1m) + (deliv * 0.4m) + (proj * 0.1m) + (cases * 0.4m);
                         // rounds up for decimal value
                         int rounded = (int)Math.Round(new_grade, MidpointRounding.AwayFromZero);
-                        Console.WriteLine("Your overall grade is: " + rounded);
+                        Console.WriteLine("Your overall grade is: " + rounded.ToString());
                         Console.WriteLine("Please enter this value next time...");
                     }
                     else
